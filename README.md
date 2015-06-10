@@ -166,7 +166,7 @@ This dataset formed our second tidy dataset (dataMelt2), and it was saved as a t
 After run_analysis.R created the "tidydata22.txt", this README and a CodeBook 
 (which highlighted the variables, data, and transformations) were written. A github repository called 
 GettingandCleaningDataCourseProject was created, and the run_analysis.R, README.md, and 
-CodeBook.md were pushed to the repository. "tidydata22.txt" and a link to github were 
+CodeBook.md were pushed to the repository. "tidydata22.txt" and a link to GitHub were 
 posted in the course room.
 
 ##References
