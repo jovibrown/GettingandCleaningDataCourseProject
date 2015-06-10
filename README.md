@@ -149,6 +149,7 @@ setnames to set the descriptive variable names. Once setnames used, we, now, gav
 
 ###5.  From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 Note: Save as text file using write.table and row.name=FALSE 
+
 	*A. Load reshape2 package to melt and dcast 
 	*B. Melt and dcast data to separate ID variables (subject and activity) from 
 		measured variables (all of the features that we extracted), and take the mean of 
