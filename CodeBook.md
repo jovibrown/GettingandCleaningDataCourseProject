@@ -2,7 +2,7 @@
 This codebook highlights the variables, data, and transformations that were performed to clean the data.  
 For the code that generated this project's tidy dataset("tidydata22.txt"), see run_analysis.R.
 Also, the README.md contains a pictorial overview of the five main steps run_analysis.R
-used to create tidydata22.txt.
+used to create "tidydata22.txt".
 
 #Variables
 ##Subject
