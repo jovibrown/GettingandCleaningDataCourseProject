@@ -12,6 +12,7 @@ subject ID 1-30. Subjects were represented in the first column of tidydata22.txt
 ##Activity
 Each volunteer performed 6 activities while wearing a smartphone (Samsung Galaxy S II) on the waist. 
 Activities were represented in the second column of tidydata22.txt. Activities were coded 1-6 as follows:
+
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
@@ -23,6 +24,7 @@ Activities were represented in the second column of tidydata22.txt. Activities w
 Using an accelerometer and gyroscope, calculations were measured on features, and their means 
 were represented in the third through seventy-fifth columns of tidyadata22.txt. The following 
 73 features were used:
+
 1.	1 tBodyAcc-mean()-X
 2.	2 tBodyAcc-mean()-Y
 3.	3 tBodyAcc-mean()-Z
@@ -101,8 +103,8 @@ were represented in the third through seventy-fifth columns of tidyadata22.txt. 
 As has been indicated, the final tidy dataset was named "tidydata22.txt". Its dimensions are 181x75.
 
 #Transformations
-##Feature names changed
 Feature names were changed to be more descriptive. They were changed as follows:
+
 t-> total
 f-> frequency
 Acc-> Accelerometer
