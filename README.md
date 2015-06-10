@@ -1,4 +1,4 @@
-# GettingandCleaningDataCourseProject
+# Getting and Cleaning Data Course Project
 Course Project for Getting and Cleaning Data Class
 
 The main objective of the course project was to create two tidy datasets_printing the second. 
@@ -23,7 +23,7 @@ Relevant files were read ("UCI HAR Dataset/train/X_train.txt", "UCI HAR Dataset/
 to see how data should be combined. Data were merged using rbind and cbind.
 
 ###2. Extract only the measurements on the mean and standard deviation for each measurement 
-#Note: Make oneDatasetExtract a character vector to prevent list errors.
+####Note: Make oneDatasetExtract a character vector to prevent list errors.
 
 Manually, for each measurement, only measurements on mean and standard deviation were extracted. I chose not 
 to include mean frequency. As such, I did not use grep as it would have extracted everything with mean and 
