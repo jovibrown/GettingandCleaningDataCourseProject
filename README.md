@@ -116,12 +116,12 @@ To descriptively name the activities in the data set, the activities file
 represented activity so it was named "Activity". Then, the activity codes were converted to their descriptive 
 activity names as found in the second column of the activities file:
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING   
+1. 1 WALKING
+2. 2 WALKING_UPSTAIRS
+3. 3 WALKING_DOWNSTAIRS
+4. 4 SITTING
+5. 5 STANDING
+6. 6 LAYING   
 
 ###4.  Appropriately label the data set with descriptive variable names. 
 	*A. Load data.table package to setnames
@@ -147,9 +147,8 @@ merged with the extracted features from step 2. Then, NAs, column names, and dim
 to include only non-missing data and show us the column names and dimensions so that we could use
 setnames to set the descriptive variable names. Once setnames used, we, now, gave a tidy dataset.
 
-###5.  From the data set in step 4, create a second, independent tidy data set with the 
-###average of each variable for each activity and each subject. 
-####Note: Save as text file using write.table and row.name=FALSE (done in A-c)
+###5.  From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject. 
+Note: Save as text file using write.table and row.name=FALSE 
 	*A. Load reshape2 package to melt and dcast 
 	*B. Melt and dcast data to separate ID variables (subject and activity) from 
 		measured variables (all of the features that we extracted), and take the mean of 
