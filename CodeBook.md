@@ -1,17 +1,17 @@
 #Getting and Cleaning Data Course Project
 This codebook highlights the variables, data, and transformations that were performed to clean the data.  
-For the code that generated this project's tidy dataset(tidydata22.txt), see run_analysis.R.
+For the code that generated this project's tidy dataset("tidydata22.txt"), see run_analysis.R.
 Also, the README.md contains a pictorial overview of the five main steps run_analysis.R
 used to create tidydata22.txt.
 
 #Variables
 ##Subject
 Thirty volunteers (age 19-48) performed 6 activities each, and each volunteer was given a 
-subject ID 1-30. Subjects were represented in the first column of tidydata22.txt.
+subject ID 1-30. Subjects were represented in the first column of "tidydata22.txt".
 
 ##Activity
 Each volunteer performed 6 activities while wearing a smartphone (Samsung Galaxy S II) on the waist. 
-Activities were represented in the second column of tidydata22.txt. Activities were coded 1-6 as follows:
+Activities were represented in the second column of "tidydata22.txt". Activities were coded 1-6 as follows:
 
 1. 1 WALKING
 2. 2 WALKING_UPSTAIRS
@@ -22,7 +22,12 @@ Activities were represented in the second column of tidydata22.txt. Activities w
 
 ##Features
 Using an accelerometer and gyroscope, calculations were measured on features, and their means 
-were represented in the third through seventy-fifth columns of tidyadata22.txt. The following 
+were represented in the third through seventy-fifth columns of "tidyadata22.txt". 3-axial linear acceleration 
+and 3-axial angular velocity were captured at a constant rate of 50Hz. The sensor signals (accelerometer and gyroscope) 
+were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec 
+and 50% overlap (128 readings/window). A filter with 0.3 Hz cutoff frequency was used. 
+
+For each recordThe following 
 73 features were used:
 
 1.	1 tBodyAcc-mean()-X

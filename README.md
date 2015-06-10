@@ -160,12 +160,13 @@ Note: Save as text file using write.table and row.name=FALSE
 In order to create a tidy dataset which depicts the average of each variable for each activity and subject,
 the tidy dataset from step 4H (DT) was used. Reshape2 was loaded so that DT could be melted and dcast. 
 DT was melted and dcast so that ID variables (subject and activity) were separated from the mean of the extracted features.
-This dataset formed our second tidy dataset (dataMelt2), and it was saved as a text file (tidydata22.txt).
+This dataset formed our second tidy dataset (dataMelt2), and it was saved as a text file ("tidydata22.txt").
   
 ##Conclusion 
-After run_analysis.R created the tidydata22.txt, this README and a CodeBook were written. 
-A github repository called Getting-and-Cleaning-Data-Course-Project was created, and the run_analysis.R,
-README.md, and CodeBook.md were pushed to the repository. "tidydata22.txt" and a link to github were 
+After run_analysis.R created the "tidydata22.txt", this README and a CodeBook 
+(which highlighted the variables, data, and transformations) were written. A github repository called 
+GettingandCleaningDataCourseProject was created, and the run_analysis.R, README.md, and 
+CodeBook.md were pushed to the repository. "tidydata22.txt" and a link to github were 
 posted in the course room.
 
 ##References
