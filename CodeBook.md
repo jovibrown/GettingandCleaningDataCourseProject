@@ -13,12 +13,12 @@ subject ID 1-30. Subjects were represented in the first column of "tidydata22.tx
 Each volunteer performed 6 activities while wearing a smartphone (Samsung Galaxy S II) on the waist. 
 Activities were represented in the second column of "tidydata22.txt". Activities were coded 1-6 as follows:
 
-   *1 WALKING
-   *2 WALKING_UPSTAIRS
-   *3 WALKING_DOWNSTAIRS
-   *4 SITTING
-   *5 STANDING
-   *6 LAYING   
+    *1 WALKING
+    *2 WALKING_UPSTAIRS
+    *3 WALKING_DOWNSTAIRS
+    *4 SITTING
+    *5 STANDING
+    *6 LAYING   
 
 ##Features
 Using an accelerometer and gyroscope, calculations were measured on features, and their means 
@@ -110,15 +110,15 @@ As has been indicated, the final tidy dataset was named "tidydata22.txt". Its di
 #Transformations
 Feature names were changed to be more descriptive. They were changed as follows:
 
-   *t-> total
-   *f-> frequency
-   *Acc-> Accelerometer
-   *Gyro-> Gyroscope
-   *mean()-> mean on
-   *std()-> standard deviation on
-   *-X-> X-Axis
-   *-Y-> Y-Axis
-   *-Z-> Z-Axis
+    *t-> total
+    *f-> frequency
+    *Acc-> Accelerometer
+    *Gyro-> Gyroscope
+    *mean()-> mean on
+    *std()-> standard deviation on
+    *-X-> X-Axis
+    *-Y-> Y-Axis
+    *-Z-> Z-Axis
 
 #References
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones

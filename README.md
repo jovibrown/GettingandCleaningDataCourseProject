@@ -116,12 +116,12 @@ To descriptively name the activities in the data set, the activities file
 represented activity so it was named "Activity". Then, the activity codes were converted to their descriptive 
 activity names as found in the second column of the activities file:
 
-   *1 WALKING
-   *2 WALKING_UPSTAIRS
-   *3 WALKING_DOWNSTAIRS
-   *4 SITTING
-   *5 STANDING
-   *6 LAYING   
+    *1 WALKING
+    *2 WALKING_UPSTAIRS
+    *3 WALKING_DOWNSTAIRS
+    *4 SITTING
+    *5 STANDING
+    *6 LAYING   
 
 ###4.  Appropriately label the data set with descriptive variable names. 
 	*A. Load data.table package to setnames
