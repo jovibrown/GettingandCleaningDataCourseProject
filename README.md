@@ -91,7 +91,7 @@ standard deviation to include mean frequency. The following 73 features were sel
 	*504 fBodyAccMag-std()
 	*516 fBodyBodyAccJerkMag-mean()
 	*517 fBodyBodyAccJerkMag-std()
-	*529 fBodyBodyGyroMag-mean()
+	*529 fBodyBodyGyroMag-mean() 
 	*530 fBodyBodyGyroMag-std()
 	*542 fBodyBodyGyroJerkMag-mean()
 	*543 fBodyBodyGyroJerkMag-std()
